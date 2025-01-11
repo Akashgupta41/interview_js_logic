@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+
+  <script>
+    // 1
+    // function fruit() {
+    //     console.log(name);
+    //     console.log(price);
+    //     var name = "apple"; //javascript hoasting allow us to use var before declaration
+    //     let price = 20; //but js hoasting not allow us to use let before declaration
+    // };
+  </script>
+
+  <script>
+    // 2
+    // for (var index = 0; index < 3; index++) {
+    //   setTimeout(() => console.log(i), 1); //var have globle scope its giving thats why three
+    // }
+  </script>
+
+  <script>
+     // 3
+    // for (let index = 0; index < 3; index++) {
+    //   setTimeout(() => console.log(i), 1); //let dont have globel scope thats why it will give the 0,1,2
+    // }
+  </script>
+
+  <script>
+    // 4
+    // console.log(+true);
+    // console.log(typeof +true);
+  </script>
+
+  <script>
+    // 5
+    // let data = "size";
+    // const bird = {
+    //     size:"small",
+    // };
+    // console.log(bird[data]);we can put ANY VAALUE IN OBJECT WITH THE HELP OF USING [] THIS
+    // console.log(bird["size"]); SAME RETURN SMALL
+    // console.log(bird.size);small
+    // console.log(bird.data); ERROR
+  </script>
+
+
+  <script>
+    // 6
+    // let c = {name:"peter"};
+    // let d;
+    // d =c;
+    // c.name = "anil";
+    // console.log(d.name);
+  </script>
+
+ <script>
+    // 7
+    // var x ;
+    // var x = 20;
+    // console.log(x); IT WILL PRINT 20 BECOUSE VAR HAVE GLOBEL SCOPE AND IT  ALLOW  TO DECLARE AGAIN & AGAIN
+ </script>
+
+ <script>
+    // 8
+    // var x;
+    // let x = 10; WE CANT DECLARE LET AND VAR WITH THE SAME NAME
+    // console.log(x); 
+ </script>
+
+ <script>
+    // 9
+    // let a =3;
+    // let b = new Number(3);
+    // console.log(b===a); IT WILL GIVE FALSE BECOUSE WHEN WE USE NUMBER IT WILL BE A OBJECT BUT VALUE IS SAME SO IT WILL PRINT TRUE IF I DO DOUBLE CHECK
+    // console.log(b==a); IT WILL GIVE TRUE BECOUSE THE VALUE IS SAME
+ </script>
+
+
+<script>
+    // 10
+    function fruit() {
+        console.log("hi");   
+    };
+    fruit.name = "akash";
+    fruit.print = "my";
+    console.log(fruit.print);
+    
+    console.log(fruit.name);
+    
+</script>
+</html>
+
